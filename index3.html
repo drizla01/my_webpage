@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+  </head>
+  <!--This the Registration Page-->
+  <body>
+    <style>
+      .main {
+        width: 100%;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.5) 100%,
+            rgba(0, 0, 0, 0.5) 100%
+          ),
+          url(th4.jpg);
+        background-position: center;
+        height: 170vh;
+        background-size: cover;
+        color: aliceblue;
+        text-align: justify;
+      }
+      form#register {
+        margin: auto;
+        text-align: center;
+      }
+
+      label {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-style: italic;
+      }
+      div.register {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        font-size: 18px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+        color: #fff;
+      }
+      h2 {
+        text-align: center;
+        padding: 20px;
+        font-family: sans-serif;
+      }
+
+      input#name {
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+      }
+      input#submit {
+        width: 200px;
+        padding: 7px;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        background-color: rgba(255, 100, 0, 0.5);
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
+      }
+      label,
+      h2 {
+        text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+      }
+    </style>
+    <div class="main">
+      <div class="register">
+        <h2>Register Here</h2>
+        <form id="register" method="post">
+          <br /><br />
+          <label> First Name </label>
+          <br />
+          <input
+            type="text"
+            name="fname"
+            id="name"
+            placeholder="Enter Your First Name"
+          />
+          <br /><br />
+          <label> Last Name </label>
+          <br />
+          <input
+            type="text"
+            name="lname"
+            id="name"
+            placeholder="Enter your Last Name"
+          />
+          <br /><br />
+          <label> Age </label>
+          <br />
+          <input
+            type="number"
+            name="age"
+            id="name"
+            placeholder="Enter your age "
+          />
+          <br /><br />
+          <label> Email Address </label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="name"
+            placeholder="Enter your Email Adress"
+          />
+          <br /><br />
+          <label> Phone Number </label>
+          <br />
+          <input
+            type="text"
+            name="number"
+            id="name"
+            placeholder="Enter Phone Number"
+          />
+          <br /><br />
+          <label> Country </label>
+          <br />
+          <input
+            type="text"
+            name="Country"
+            id="name"
+            placeholder="Enter your Nationality"
+          />
+          <br /><br />
+          &nbsp;
+          <label> Password </label>
+          <br />
+          <input
+            type="text"
+            name="password"
+            id="name"
+            placeholder="Enter password"
+          />
+          <br /><br />
+          &nbsp;
+          <label> Confirm Password </label>
+          <br />
+          <input
+            type="text"
+            name="password"
+            id="name"
+            placeholder="Confirm password"
+          />
+          <br /><br />
+          <div class="select">
+            <label> Gender </label>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="gender" />
+            &nbsp;
+            <span id="male"> Male</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="gender" />
+            &nbsp;&nbsp;&nbsp;
+            <span id="female"> Female</span>
+            <br />
+            <label> Track </label>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" id="track" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <span id="track1"> FrontEnd </span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" id="track" />
+            &nbsp;
+            <span id="track2">BackEnd </span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" id="track" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <span id="track3"> FullStack </span>
+            <br />
+          </div>
+          <br /><br />
+          <input type="submit" value="Submit" name="submit" id="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+  <!--End of Registration Page-->
+</html>
