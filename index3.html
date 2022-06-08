@@ -135,6 +135,15 @@
             placeholder="Enter your Nationality"
           />
           <br /><br />
+          <label> State/Province </label>
+          <br />
+          <input
+            type="text"
+            name="state"
+            id="name"
+            placeholder="Enter your province"
+          />
+          <br /><br />
           &nbsp;
           <label> Password </label>
           <br />
@@ -158,33 +167,10 @@
           <div class="select">
             <label> Gender </label>
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="radio" name="gender" id="gender" />
-            &nbsp;
-            <span id="male"> Male</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="radio" name="gender" id="gender" />
-            &nbsp;&nbsp;&nbsp;
-            <span id="female"> Female</span>
-            <br />
-            <label> Track </label>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="checkbox" name="lang" id="track" />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <span id="track1"> FrontEnd </span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="checkbox" name="lang" id="track" />
-            &nbsp;
-            <span id="track2">BackEnd </span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="checkbox" name="lang" id="track" />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <span id="track3"> FullStack </span>
-            <br />
+            <select>
+              <option value="">Male</option>
+              <option value="">Female</option>
+            </select>
           </div>
           <br /><br />
           <input type="submit" value="Submit" name="submit" id="submit" />

@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <style>
-        .login{
+      .login {
         width: 100%;
-        background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(th4.jpg);
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.5) 50%,
+            rgba(0, 0, 0, 0.5) 50%
+          ),
+          url(th4.jpg);
         background-position: center;
         height: 150vh;
         background-size: cover;
         color: aliceblue;
-    }
+      }
       form#login {
         margin: auto;
         text-align: center;
       }
-      
-      label{
+
+      label {
         font-family: sans-serif;
         font-size: 18px;
         font-style: italic;
@@ -64,33 +69,36 @@
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
       }
-
     </style>
-                    <!--This the Login Page-->  
-                    <main class="login">
-                        <div class="login1">
-                             <h3> User Login</h3>
-                        </div>
-                        <div>
-                        <form id="login" method="post">
-                            <br><br>
-                            <label> UserName: </label>
-                            <input type="text" 
-                            name="uname" 
-                            id="name"
-                            placeholder="Enter your Username Here" >
-                            <br><br>
-                            <label> Password: </label>
-                            <input type="password"
-                            name="pword"
-                            id="name"
-                            placeholder="Enter Your password" >
-                            <br><br>      
-                            <input type="submit" value="Login" name="login" id="login">
-                        </form>
-                    </div>
-                                            <!--End of Login Page-->  
-                      <footer></footer>
-                    
-</body>
+    <!--This the Login Page-->
+    <main class="login">
+      <div class="login1">
+        <h3>User Login</h3>
+      </div>
+      <div>
+        <form id="login" method="post">
+          <br /><br />
+          <label> UserName: </label>
+          <input
+            type="text"
+            name="uname"
+            id="name"
+            placeholder="Enter your Username Here"
+          />
+          <br /><br />
+          <label> Password: </label>
+          <input
+            type="password"
+            name="pword"
+            id="name"
+            placeholder="Enter Your password"
+          />
+          <br /><br />
+          <input type="submit" value="Login" name="login" id="login" />
+        </form>
+      </div>
+    </main>
+    <!--End of Login Page-->
+    <footer></footer>
+  </body>
 </html>
